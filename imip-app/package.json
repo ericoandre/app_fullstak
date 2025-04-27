@@ -9,12 +9,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/ubuntu": "^0.3.0",
     "@types/styled-components-react-native": "^5.2.5",
     "expo": "~52.0.46",
+    "expo-contacts": "~14.0.5",
+    "expo-font": "~13.0.4",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
     "react-native": "0.76.9",
+    "react-native-gesture-handler": "~2.20.2",
     "react-native-mmkv": "^3.2.0",
+    "react-native-reanimated": "~3.16.1",
     "styled-components": "^6.1.17"
   },
   "devDependencies": {

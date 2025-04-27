@@ -1,8 +1,11 @@
-import React from 'react';
-import { SplashScreen  } from './src/screens/SplashScreen';
+import { StatusBar } from 'expo-status-bar';
+import { Home } from './src/screens/home';
 
 export default function App() {
   return (
-    <SplashScreen/>
+    <>
+      <StatusBar style="light" backgroundColor='transparent' translucent />
+      <Home/>
+    </>
   );
 }
