@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "typeRoots": ["./src/types", "./node_modules/@types"],
+      "target": "es2016",
+      "module": "commonjs",
+      "rootDir": "./src",
+      "resolveJsonModule": true,
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noUnusedLocals": true ,
+      "skipLibCheck": true,
+    },
+    "lib": ["es2016"],
+    "include": [
+      "src/swagger-output.json",
+      "src/**/*"
+    ],
+    "exclude": ["node_modules", "prisma", "dist"],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node","express"]
+}
