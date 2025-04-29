@@ -1,5 +1,4 @@
-# app_fullstak
-app_fullstak
+# App Mobile
 
 
 ![](assets/telas.png)
